@@ -217,7 +217,7 @@ onMounted(() => {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .slider-wrapper {
     padding-top: 32px;
   }

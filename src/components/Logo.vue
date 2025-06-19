@@ -116,6 +116,7 @@
 @media (min-width: 320px) and (max-width: 768px) {
     .logo-container__descr {
         display: none;
+        margin-right: 34px;
     }
 }
 </style>
