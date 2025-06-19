@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "LTSuperior";
+  src: local("LTSuperior"),
+  url('../assets/fonts/LTSuperior-Regular.woff2') format('woff2'),
+  url('../assets/fonts/LTSuperior-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LTSuperior";
+  src: local("LTSuperior"),
+  url('../assets/fonts/LTSuperior-Medium.woff2') format('woff2'),
+  url('../assets/fonts/LTSuperior-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LTSuperior";
+  src: local("LTSuperior"),
+  url('../assets/fonts/LTSuperior-Semibold.woff2') format('woff2'),
+  url('../assets/fonts/LTSuperior-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LTSuperior";
+  src: local("LTSuperior"),
+  url('../assets/fonts/LTSuperior-Bold.woff2') format('woff2'),
+  url('../assets/fonts/LTSuperior-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  scroll-behavior: smooth;
+  font-family: "LTSuperior", "Sans-Serif";
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+/* 
+#app {
+  font-family: "LTSuperio";
+} */
+
+
+/* 
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
