@@ -55,6 +55,11 @@ const computedClass = computed(() => {
   padding-left: 15px;
   border-radius: 8px;
   cursor: pointer;
+  &:hover {
+    .button-inside {
+    transform: rotate(45deg);
+  }
+  }
 }
 
 button:disabled {
@@ -74,6 +79,16 @@ button:disabled {
     line-height: 100%;
     text-align: left;
   }
+  &:hover {
+    background-color: #fff;
+    p {
+      color: #0a0a0a;
+    }
+    #color {
+      fill: #0a0a0a;
+    }
+    
+  }
 }
 
 .button__test {
@@ -82,6 +97,9 @@ button:disabled {
 
   #color {
     fill: #0A0A0A;
+  }
+  &:hover {
+    background-color: #ccb076;
   }
 
   p {
@@ -111,6 +129,10 @@ button:disabled {
     font-size: 18px;
     line-height: 100%;
   }
+  &:hover {
+    background-color: #ccb076;
+    border: none;
+  }
 }
 
 .button__all {
@@ -128,6 +150,9 @@ button:disabled {
     font-size: 18px;
     line-height: 100%;
     margin: 0;
+  }
+  &:hover {
+    background-color: #ccb076;
   }
 }
 
@@ -147,6 +172,9 @@ button:disabled {
     font-size: 18px;
     line-height: 100%;
     margin: 0;
+  }
+  &:hover {
+    background-color: #ccb076;
   }
 }
 
